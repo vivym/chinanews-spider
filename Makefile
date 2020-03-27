@@ -39,6 +39,7 @@ release: clean
 	@echo - `date "+%H:%M:%S"` [1] building binary
 	@echo ---------------------------------------------------------------
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build ${BUILD_PARAMS}
+	@cp -R configs build/
 
 	@echo
 	@echo ---------------------------------------------------------------
