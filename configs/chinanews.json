@@ -1,0 +1,2721 @@
+{
+  "spider": {
+    "tasks": {
+      "华北": [
+        {
+          "province": "北京",
+          "baseURL": "http://www.bj.chinanews.com",
+          "selector": {
+            "url": ".mt17>.branch_list_ul.paging>li",
+            "title": ".branch_con_box>.branch_con_title h1",
+            "src": ".branch_con_box>.branch_con_title span",
+            "content": ".branch_con_box>.branch_con_text"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url":"/focus/1.html",
+              "tag":"聚焦"
+            },
+            {
+              "url":"/focus/2.html",
+              "tag":"话题"
+            },
+            {
+              "url":"/focus/3.html",
+              "tag":"季风"
+            },
+            {
+              "url":"/focus/4.html",
+              "tag":"政文"
+            },
+            {
+              "url":"/focus/5.html",
+              "tag":"经济"
+            },
+            {
+              "url":"/focus/6.html",
+              "tag":"社会"
+            },
+            {
+              "url":"/focus/7.html",
+              "tag":"法警"
+            },
+            {
+              "url":"/focus/8.html",
+              "tag":"休闲"
+            },
+            {
+              "url":"/focus/9.html",
+              "tag":"健康"
+            },
+            {
+              "url":"/focus/10.html",
+              "tag":"科教"
+            },
+            {
+              "url":"/focus/11.html",
+              "tag":"怀旧"
+            }
+          ]
+        },
+        {
+          "province": "河北",
+          "baseURL": "http://www.heb.chinanews.com",
+          "selector": {
+            "url": ".list13hui15>table>tbody>tr>td>ul>li",
+            "title": "#tit",
+            "src": ".left-time",
+            "content": ".article13hui15"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/hbzy/334.shtml",
+              "tag": "河北要闻"
+            },
+            {
+              "url": "/jjjjj/445.shtml",
+              "tag": "聚焦京津冀"
+            },
+            {
+              "url": "/xaxq/469.shtml",
+              "tag": "雄安新区"
+            },
+            {
+              "url": "/shfz/327.shtml",
+              "tag": "社会"
+            },
+            {
+              "url": "/fazhi/490.shtml",
+              "tag": "法治"
+            },
+            {
+              "url": "/cjzx/329.shtml",
+              "tag": "财经"
+            },
+            {
+              "url": "/kjww/331.shtml",
+              "tag": "科教"
+            },
+            {
+              "url": "/ylxc/493.shtml",
+              "tag": "文体"
+            },
+            {
+              "url": "/jkqg/355.shtml",
+              "tag": "旅游"
+            },
+            {
+              "url": "/shenghuo/491.shtml",
+              "tag": "生活"
+            },
+            {
+              "url": "/fc/495.shtml",
+              "tag": "房产"
+            },
+            {
+              "url": "/jiankang/492.shtml",
+              "tag": "健康"
+            },
+            {
+              "url": "/zxjzkhb/321.shtml",
+              "tag": "中新社记者看河北"
+            }
+          ]
+        },
+        {
+          "province": "山西",
+          "baseURL": "http://www.sx.chinanews.com",
+          "selector": {
+            "url": ".list_16>li",
+            "title": ".article-title",
+            "src": ".article-source>.atime",
+            "content": ".article-content"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/list/yaowen.html",
+              "tag": "山西要闻"
+            },
+            {
+              "url": "/list/guanzhu.html",
+              "tag": "中新关注"
+            },
+            {
+              "url": "/list/shanxi.html",
+              "tag": "中新记者看山西"
+            },
+            {
+              "url": "/list/jujiao.html",
+              "tag": "聚焦"
+            },
+            {
+              "url": "/list/shizheng.html",
+              "tag": "山西时政"
+            },
+            {
+              "url": "/list/sxbaoxian.html",
+              "tag": "山西保险"
+            },
+            {
+              "url": "/list/bank.html",
+              "tag": "银行"
+            },
+            {
+              "url": "/list/shehui.html",
+              "tag": "社会新闻"
+            },
+            {
+              "url": "/list/chengshi.html",
+              "tag": "城市新闻"
+            },
+            {
+              "url": "/list/xingxian.html",
+              "tag": "红色兴县"
+            },
+            {
+              "url": "/list/yaodu.html",
+              "tag": "今日尧都"
+            },
+            {
+              "url": "/list/xtm.html",
+              "tag": "新同煤"
+            },
+            {
+              "url": "/list/lvyou.html",
+              "tag": "旅游新闻"
+            },
+            {
+              "url": "/list/wenhua.html",
+              "tag": "文化新闻"
+            },
+            {
+              "url": "/list/jiaoyu.html",
+              "tag": "教育新闻"
+            },
+            {
+              "url": "/list/tiyu.html",
+              "tag": "体育新闻"
+            },
+            {
+              "url": "/health/list/8.html",
+              "tag": "健康资讯"
+            }
+          ]
+        },
+        {
+          "province": "内蒙古",
+          "baseURL": "http://www.nmg.chinanews.com",
+          "selector": {
+            "url": "#www_zzjs_net>ul>li",
+            "title": ".news_content_title>h1",
+            "src": ".news_content_title>span",
+            "content": ".news_content_content"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/zxxw/index.html",
+              "tag": "中新新闻"
+            },
+            {
+              "url": "/nmgxw/index.html",
+              "tag": "内蒙古新闻"
+            },
+            {
+              "url": "/zxsp/index.html",
+              "tag": "中新视频"
+            },
+            {
+              "url": "/kjww/index.html",
+              "tag": "科教文卫"
+            },
+            {
+              "url": "/msdt/index.html",
+              "tag": "盟市动态"
+            },
+            {
+              "url": "/shjd/index.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/nmgjy/index.html",
+              "tag": "人物专访"
+            },
+            {
+              "url": "/nmgjy/index.html",
+              "tag": "人物专访"
+            },
+            {
+              "url": "/qyxw/index.html",
+              "tag": "产经新闻"
+            }
+          ]
+        }
+      ],
+      "华东": [
+        {
+          "province": "上海",
+          "baseURL": "http://www.sh.chinanews.com",
+          "selector": {
+            "url": ".con_title",
+            "title": ".cms-news-article-title",
+            "src": ".cms-news-article-title-source",
+            "content": ".cms-news-article-content-blocknew"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/wenhua/index.shtml",
+              "tag": "文化"
+            },
+            {
+              "url": "/shms/index.shtml",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/tiyu/index.shtml",
+              "tag": "体育"
+            },
+            {
+              "url": "/shishang/index.shtml",
+              "tag": "时尚"
+            },
+            {
+              "url": "/yule/index.shtml",
+              "tag": "娱乐"
+            },
+            {
+              "url": "/ckzx/index.shtml",
+              "tag": "创客"
+            },
+            {
+              "url": "/chanjing/index.shtml",
+              "tag": "产经"
+            },
+            {
+              "url": "/jinrong/index.shtml",
+              "tag": "金融"
+            },
+            {
+              "url": "/loushi/index.shtml",
+              "tag": "楼市"
+            },
+            {
+              "url": "/hgjj/index.shtml",
+              "tag": "宏观经济"
+            },
+            {
+              "url": "/gatq/index.shtml",
+              "tag": "港澳台侨"
+            },
+            {
+              "url": "/qxdt/index.shtml",
+              "tag": "区镇动态"
+            },
+            {
+              "url": "/bdrd/index.shtml",
+              "tag": "本地热点"
+            },
+            {
+              "url": "/yljk/index.shtml",
+              "tag": "医疗健康"
+            },
+            {
+              "url": "/kjjy/index.shtml",
+              "tag": "科技教育"
+            },
+            {
+              "url": "/fzzx/index.shtml",
+              "tag": "法制资讯"
+            },
+            {
+              "url": "/swzx/index.shtml",
+              "tag": "商企资讯"
+            }
+          ]
+        },
+        {
+          "province": "江苏",
+          "baseURL": "http://www.js.chinanews.com",
+          "selector": {
+            "url": "#list>ul>li",
+            "title": "#cont>h1",
+            "src": "#time",
+            "content": "#txt"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/highlights/",
+              "tag": "江苏要闻"
+            },
+            {
+              "url": "/business/",
+              "tag": "财经新闻"
+            },
+            {
+              "url": "/citynews/",
+              "tag": "社会新闻"
+            },
+            {
+              "url": "/nomocracy/",
+              "tag": "法治"
+            },
+            {
+              "url": "/science/",
+              "tag": "科教动态"
+            },
+            {
+              "url": "/sports/",
+              "tag": "文化体育"
+            },
+            {
+              "url": "/overseas/",
+              "tag": "港澳台侨"
+            }
+          ]
+        },
+        {
+          "province": "浙江",
+          "baseURL": "http://www.zj.chinanews.com",
+          "selector": {
+            "url": ".branch_list_ul>li",
+            "title": ".neiyect>h3",
+            "src": ".neiyectime",
+            "content": ".neiyecontent"
+          },
+          "subtasks": [
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=1",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=2",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=3",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=4",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=5",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=6",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=7",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=8",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=9",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=272&p=10",
+              "tag": "浙江要闻"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=1",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=2",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=3",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=4",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=5",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=6",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=7",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=8",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=9",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=50&p=10",
+              "tag": "中新记者看浙江"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=1",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=2",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=3",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=4",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=5",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=6",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=7",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=8",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=9",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=280&p=10",
+              "tag": "浙商"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=282&p=1",
+              "tag": "政策"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=282&p=2",
+              "tag": "政策"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=282&p=3",
+              "tag": "政策"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=287&p=1",
+              "tag": "高校"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=287&p=2",
+              "tag": "高校"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=291&p=1",
+              "tag": "中小学"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=291&p=2",
+              "tag": "中小学"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=299&p=1",
+              "tag": "旅讯直通车"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=299&p=2",
+              "tag": "旅讯直通车"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=302&p=1",
+              "tag": "健康产业"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=302&p=2",
+              "tag": "健康产业"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=304&p=1",
+              "tag": "浙江体育"
+            },
+            {
+              "url": "/yw/zjyw.d.html?nid=304&p=2",
+              "tag": "浙江体育"
+            }
+          ]
+        },
+        {
+          "province": "山东",
+          "baseURL": "http://www.sd.chinanews.com",
+          "selector": {
+            "url": ".liangbian.zhengwen>.left.l_width>.contentlist.bian_0px>.liangbian>.left",
+            "title": ".liangbian.zhengwen>.left.l_width>.biaoti",
+            "src": ".liangbian.zhengwen>.left.l_width>.suoying",
+            "content": ".liangbian.zhengwen>.left.l_width .zhenwen"
+          },
+          "skip": false,
+          "subtasks": [{
+            "url": "/more/news/1.html",
+            "tag": "头条"
+          }, {
+            "url": "/more/news/4.html",
+            "tag": "山东新闻"
+          }, {
+            "url": "/more/news/5.html",
+            "tag": "国内新闻"
+          }, {
+            "url": "/more/news/6.html",
+            "tag": "国际新闻"
+          }, {
+            "url": "/more/news/7.html",
+            "tag": "中新社记者看山东"
+          }, {
+            "url": "/more/news/8.html",
+            "tag": "焦点新闻"
+          }, {
+            "url": "/more/news/9.html",
+            "tag": "政治"
+          }, {
+            "url": "/more/news/10.html",
+            "tag": "社会"
+          }, {
+            "url": "/more/news/11.html",
+            "tag": "文化"
+          }, {
+            "url": "/more/news/12.html",
+            "tag": "娱乐"
+          }, {
+            "url": "/more/news/14.html",
+            "tag": "专题"
+          }, {
+            "url": "/more/news/17.html",
+            "tag": "博物"
+          }, {
+            "url": "/more/news/18.html",
+            "tag": "养生"
+          }, {
+            "url": "/more/news/19.html",
+            "tag": "地方"
+          }, {
+            "url": "/more/news/20.html",
+            "tag": "旅游"
+          }, {
+            "url": "/more/news/22.html",
+            "tag": "演艺"
+          }, {
+            "url": "/more/news/23.html",
+            "tag": "教育"
+          }, {
+            "url": "/more/news/24.html",
+            "tag": "IT"
+          }, {
+            "url": "/more/news/25.html",
+            "tag": "焦点图片"
+          }, {
+            "url": "/more/news/26.html",
+            "tag": "经济"
+          }, {
+            "url": "/more/news/35.html",
+            "tag": "2020年山东两会"
+          }]
+        },
+        {
+          "province": "安徽",
+          "baseURL": "http://www.ah.chinanews.com",
+          "selector": {
+            "url":     ".mt17>.branch_list_ul.paging>li",
+            "title":   ".branch_con_box>.branch_con_title h1",
+            "src":     ".branch_con_box>.branch_con_title span",
+            "content": ".branch_con_box>.branch_con_text"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/focus/3.html",
+              "tag": "安徽要闻"
+            },
+            {
+              "url": "/focus/4.html",
+              "tag": "中新记者看安徽"
+            },
+            {
+              "url": "/focus/5.html",
+              "tag": "高端动态"
+            },
+            {
+              "url": "/focus/6.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/focus/7.html",
+              "tag": "科技教育"
+            },
+            {
+              "url": "/focus/8.html",
+              "tag": "财经时讯"
+            },
+            {
+              "url": "/focus/9.html",
+              "tag": "旅游大观"
+            }
+          ]
+        }
+      ],
+      "东北": [
+        {
+          "province": "辽宁",
+          "baseURL": "http://www.ln.chinanews.com",
+          "selector": {
+            "url": "#js-ul",
+            "title": ".title>h1",
+            "src": ".tit-bar",
+            "content": ".art-con"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/liaoning/index.shtml",
+              "tag": "辽宁"
+            },
+            {
+              "url": "/guonei/index.shtml",
+              "tag": "国内"
+            },
+            {
+              "url": "/guoji/index.shtml",
+              "tag": "国际"
+            },
+            {
+              "url": "/shehui/index.shtml",
+              "tag": "社会"
+            },
+            {
+              "url": "/caijing/index.shtml",
+              "tag": "财经"
+            },
+            {
+              "url": "/yule/index.shtml",
+              "tag": "娱乐"
+            },
+            {
+              "url": "/tiyu/index.shtml",
+              "tag": "体育"
+            },
+            {
+              "url": "/shenghuo/index.shtml",
+              "tag": "生活"
+            },
+            {
+              "url": "/lvyou/index.shtml",
+              "tag": "旅游"
+            },
+            {
+              "url": "/jiankang/index.shtml",
+              "tag": "健康"
+            },
+            {
+              "url": "/jiaoyu/index.shtml",
+              "tag": "教育"
+            },
+            {
+              "url": "/wenhua/index.shtml",
+              "tag": "文化"
+            },
+            {
+              "url": "/shishang/index.shtml",
+              "tag": "时尚"
+            },
+            {
+              "url": "/fangchan/index.shtml",
+              "tag": "房产"
+            },
+            {
+              "url": "/keji/index.shtml",
+              "tag": "科技"
+            },
+            {
+              "url": "/nongye/index.shtml",
+              "tag": "农业"
+            },
+            {
+              "url": "/shangye/index.shtml",
+              "tag": "商业"
+            }
+          ]
+        },
+        {
+          "province": "吉林",
+          "baseURL": "http://www.jl.chinanews.com",
+          "selector": {
+            "url": ".mt17 ul>li",
+            "title": ".black_titnews",
+            "src": "#time",
+            "content": ".black_link_news[align='left']"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/jlyw/index.shtml",
+              "tag": "吉林要闻"
+            },
+            {
+              "url": "/shidian/index.shtml",
+              "tag": "时点"
+            },
+            {
+              "url": "/hqrd/index.shtml",
+              "tag": "环球热点"
+            },
+            {
+              "url": "/gnyw/index.shtml",
+              "tag": "国内要闻"
+            },
+            {
+              "url": "/tsjl/index.shtml",
+              "tag": "图说吉林"
+            },
+            {
+              "url": "/szjj/index.shtml",
+              "tag": "时政聚焦"
+            },
+            {
+              "url": "/cjbd/index.shtml",
+              "tag": "财经报道"
+            },
+            {
+              "url": "/shms/index.shtml",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/kjww/index.shtml",
+              "tag": "科教文卫"
+            },
+            {
+              "url": "/sdgc/index.shtml",
+              "tag": "深度观察"
+            },
+            {
+              "url": "/tbgz/index.shtml",
+              "tag": "特别关注"
+            },
+            {
+              "url": "/rdzt/index.shtml",
+              "tag": "热点专题"
+            },
+            {
+              "url": "/rszl/index.shtml",
+              "tag": "人参专栏"
+            },
+            {
+              "url": "/gclt/index.shtml",
+              "tag": "高层论坛"
+            },
+            {
+              "url": "/jlly/index.shtml",
+              "tag": "吉林旅游"
+            },
+            {
+              "url": "/rsbd/index.shtml",
+              "tag": "人事变动"
+            },
+            {
+              "url": "/mqtj/index.shtml",
+              "tag": "名企推荐"
+            },
+            {
+              "url": "/gatq/index.shtml",
+              "tag": "港澳台侨"
+            },
+            {
+              "url": "/msfq/index.shtml",
+              "tag": "民俗风情"
+            },
+            {
+              "url": "/jkzx/index.shtml",
+              "tag": "健康在线"
+            },
+            {
+              "url": "/dcls/index.shtml",
+              "tag": "地产楼市"
+            },
+            {
+              "url": "/wcjl/index.shtml",
+              "tag": "文萃交流"
+            },
+            {
+              "url": "/bwrs/index.shtml",
+              "tag": "百味人生"
+            },
+            {
+              "url": "/hyhc/index.shtml",
+              "tag": "行业荟萃"
+            },
+            {
+              "url": "/qccy/index.shtml",
+              "tag": "汽车产业"
+            }
+          ]
+        },
+        {
+          "province": "黑龙江",
+          "baseURL": "http://www.hlj.chinanews.com",
+          "selector": {
+            "url": ".news_list_title",
+            "title": ".news_title",
+            "src": ".news_info",
+            "content": ".news_content"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/focus/gnxw.html",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/focus/gjxw.html",
+              "tag": "国际新闻"
+            },
+            {
+              "url": "/focus/rdjj.html",
+              "tag": "热点聚焦"
+            },
+            {
+              "url": "/focus/ycyl.html",
+              "tag": "原创"
+            },
+            {
+              "url": "/focus/zfjw.html",
+              "tag": "政法警务"
+            },
+            {
+              "url": "/focus/cjqy.html",
+              "tag": "财经企业"
+            },
+            {
+              "url": "/focus/whly.html",
+              "tag": "文化旅游"
+            }
+          ]
+        }
+      ],
+      "华中": [
+        {
+          "province": "湖北",
+          "baseURL": "http://www.hb.chinanews.com/",
+          "selector": {
+            "url": "#content_list>p",
+            "title": "#content_text>h1",
+            "src": "#content_text>.p1",
+            "content": "#content_text"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/jzyx.html",
+              "tag": "记者一线"
+            },
+            {
+              "url": "/hbxw.html",
+              "tag": "湖北要闻"
+            },
+            {
+              "url": "/dsxw.html",
+              "tag": "荆楚各地"
+            },
+            {
+              "url": "/cjxw.html",
+              "tag": "财经新闻"
+            },
+            {
+              "url": "/shxw.html",
+              "tag": "社会新闻"
+            },
+            {
+              "url": "/wbhb.html",
+              "tag": "外报湖北"
+            },
+            {
+              "url": "/kjww.html",
+              "tag": "科教文化"
+            },
+            {
+              "url": "/gnxw.html",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/gjxw.html",
+              "tag": "国际新闻"
+            },
+            {
+              "url": "/gatq.html",
+              "tag": "统一战线"
+            },
+            {
+              "url": "/travel.html",
+              "tag": "旅游"
+            },
+            {
+              "url": "/fc.html",
+              "tag": "房产"
+            },
+            {
+              "url": "/qc.html",
+              "tag": "汽车"
+            },
+            {
+              "url": "/kj.html",
+              "tag": "科技"
+            },
+            {
+              "url": "/jk.html",
+              "tag": "健康新闻"
+            },
+            {
+              "url": "/ty.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/yl.html",
+              "tag": "娱乐"
+            }
+          ]
+        },
+        {
+          "province": "湖南",
+          "baseURL": "http://www.hn.chinanews.com",
+          "selector": {
+            "url": ".NLPTitle",
+            "title": ".newbiaoti",
+            "src": "#anthor",
+            "content": "#zoom"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/news/hnyw/",
+              "tag": "湖南要闻"
+            },
+            {
+              "url": "/news/shsh/",
+              "tag": "社会生活"
+            },
+            {
+              "url": "/news/cjxx/",
+              "tag": "财经信息"
+            },
+            {
+              "url": "/news/fcxw/",
+              "tag": "房产新闻"
+            },
+            {
+              "url": "/news/ylty/",
+              "tag": "娱乐体育"
+            },
+            {
+              "url": "/news/gatq/",
+              "tag": "港澳台侨"
+            },
+            {
+              "url": "/news/lyxw/",
+              "tag": "旅游新闻"
+            },
+            {
+              "url": "/news/szws/",
+              "tag": "时政外事"
+            },
+            {
+              "url": "/news/sxdt/",
+              "tag": "市县动态"
+            },
+            {
+              "url": "/news/cnsdc/",
+              "tag": "热点追踪"
+            },
+            {
+              "url": "/news/kjww/",
+              "tag": "科教文卫"
+            },
+            {
+              "url": "/news/gnxw/",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/news/gngj/",
+              "tag": "国内国际"
+            }
+          ]
+        },
+        {
+          "province": "河南",
+          "baseURL": "http://www.ha.chinanews.com",
+          "selector": {
+            "url": ".neiron_liebiao>ul>li",
+            "title": ".neiron_title",
+            "src": ".neiron_hh",
+            "content": ".neiron_kong"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/news/hnxw/index.shtml",
+              "tag": "要闻"
+            },
+            {
+              "url": "/news/dszx/index.shtml",
+              "tag": "中新河南"
+            },
+            {
+              "url": "/news/zkqs/index.shtml",
+              "tag": "河南统战"
+            },
+            {
+              "url": "/news/xxsd/index.shtml",
+              "tag": "学习新时代"
+            },
+            {
+              "url": "/news/khn/index.shtml",
+              "tag": "微视河南"
+            },
+            {
+              "url": "/news/zgxwb/index.shtml",
+              "tag": "健康中国"
+            }
+          ]
+        },
+        {
+          "province": "江西",
+          "baseURL": "http://www.jx.chinanews.com",
+          "selector": {
+            "url": "#pagination1>li",
+            "title": ".article-content-title",
+            "src": ".article-infos",
+            "content": ".article-detail"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/jianxi/",
+              "tag": "江西新闻"
+            },
+            {
+              "url": "/gdft/",
+              "tag": "高端访谈"
+            },
+            {
+              "url": "/rsrm/",
+              "tag": "人事任免"
+            },
+            {
+              "url": "/bgt/",
+              "tag": "曝光台"
+            },
+            {
+              "url": "/travel/",
+              "tag": "旅游"
+            },
+            {
+              "url": "/gongyi/",
+              "tag": "公益"
+            },
+            {
+              "url": "/guoqi/",
+              "tag": "国企"
+            },
+            {
+              "url": "/edu/",
+              "tag": "教育"
+            },
+            {
+              "url": "/mil/",
+              "tag": "军事"
+            },
+            {
+              "url": "/guonei/",
+              "tag": "国内"
+            },
+            {
+              "url": "/world/",
+              "tag": "国际"
+            },
+            {
+              "url": "/qiaowu/",
+              "tag": "侨务"
+            },
+            {
+              "url": "/chanxiu/",
+              "tag": "禅修"
+            },
+            {
+              "url": "/house/",
+              "tag": "房产"
+            },
+            {
+              "url": "/life/",
+              "tag": "生活"
+            },
+            {
+              "url": "/society/",
+              "tag": "社会"
+            },
+            {
+              "url": "/finance/",
+              "tag": "财经"
+            },
+            {
+              "url": "/faizhi/",
+              "tag": "法治"
+            },
+            {
+              "url": "/minsheng/",
+              "tag": "民生"
+            },
+            {
+              "url": "/wenhua/",
+              "tag": "文化"
+            },
+            {
+              "url": "/caishui/",
+              "tag": "财税"
+            }
+          ]
+        }
+      ],
+      "华南": [
+        {
+          "province": "广东",
+          "baseURL": "http://www.gd.chinanews.com",
+          "selector": {
+            "url": ".content_list li .dd_bt",
+            "title": ".thi .thi_left>.thi_left_1>h2",
+            "src": ".thi .thi_left>.thi_left_1>dl>dt",
+            "content": ".thi .thi_left>.thi_left_1>dl>dd"
+          },
+          "skip": false,
+          "subtasks": [{
+            "url": "/index/gdsz.html",
+            "tag": "广东时政"
+          }, {
+            "url": "/index/kjgd.html",
+            "tag": "科技广东"
+          }, {
+            "url": "/index/whjy.html",
+            "tag": "文化教育"
+          }, {
+            "url": "/index/shyx.html",
+            "tag": "社会粤象"
+          }, {
+            "url": "/index/ztgot.html",
+            "tag": "直通港澳台"
+          }, {
+            "url": "/index/qxlf.html",
+            "tag": "侨乡来风"
+          }, {
+            "url": "/index/qcsh.html",
+            "tag": "汽车生活"
+          }, {
+            "url": "/index/gdjj.html",
+            "tag": "广东经济"
+          }, {
+            "url": "/index/lnrw.html",
+            "tag": "岭南人物"
+          }, {
+            "url": "/index/cnstv.html",
+            "tag": "CNSTV"
+          }, {
+            "url": "/index/cstt.html",
+            "tag": "潮汕听涛"
+          }]
+        },
+        {
+          "province": "广西",
+          "baseURL": "http://www.gx.chinanews.com",
+          "selector": {
+            "url": ".newslist>li",
+            "title": ".wryh",
+            "src": ".headline>dd>span",
+            "content": "#ArticleCnt"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/top/",
+              "tag": "新闻头条"
+            },
+            {
+              "url": "/sz/",
+              "tag": "时政外事"
+            },
+            {
+              "url": "/cj/",
+              "tag": "财经"
+            },
+            {
+              "url": "/sh/",
+              "tag": "社会"
+            },
+            {
+              "url": "/kjwt/",
+              "tag": "科教文体"
+            },
+            {
+              "url": "/gatq/",
+              "tag": "港澳台侨"
+            },
+            {
+              "url": "/dmsz/",
+              "tag": "东盟时政"
+            },
+            {
+              "url": "/dmjj/",
+              "tag": "东盟经济"
+            },
+            {
+              "url": "/dmsh/",
+              "tag": "东盟社会"
+            },
+            {
+              "url": "/dmwt/",
+              "tag": "东盟文体"
+            },
+            {
+              "url": "/ly/",
+              "tag": "旅游"
+            },
+            {
+              "url": "/fc/",
+              "tag": "房地产"
+            },
+            {
+              "url": "/jr/",
+              "tag": "金融"
+            },
+            {
+              "url": "/qc/",
+              "tag": "汽车"
+            },
+            {
+              "url": "/jqzh/",
+              "tag": "节庆展会"
+            },
+            {
+              "url": "/xfwq/",
+              "tag": "消费维权"
+            },
+            {
+              "url": "/mt/",
+              "tag": "媒体看广西"
+            }
+          ]
+        },
+        {
+          "province": "海南",
+          "baseURL": "http://www.hi.chinanews.com",
+          "selector": {
+            "url": ".contentlist>li",
+            "title": ".biaoti",
+            "src": ".suoying",
+            "content": ".zhenwen"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/jrtt.html",
+              "tag": "头条"
+            },
+            {
+              "url": "/gundong/szxw.html",
+              "tag": "时政新闻"
+            },
+            {
+              "url": "/gundong/jjxw.html",
+              "tag": "经济"
+            },
+            {
+              "url": "/gundong/shxw.html",
+              "tag": "社会新闻"
+            },
+            {
+              "url": "/gundong/jyxw.html",
+              "tag": "教育"
+            },
+            {
+              "url": "/gundong/guonei.html",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/gundong/guoji.html",
+              "tag": "国际新闻"
+            },
+            {
+              "url": "/gundong/wenshi.html",
+              "tag": "文化历史"
+            },
+            {
+              "url": "/gundong/tiyu.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/zixun/more/64.html",
+              "tag": "资讯"
+            },
+            {
+              "url": "/zixun/more/79.html",
+              "tag": "生活资讯"
+            },
+            {
+              "url": "/gundong/zhbb.html",
+              "tag": "综合播报"
+            },
+            {
+              "url": "/gundong/yliao.html",
+              "tag": "科卫"
+            },
+            {
+              "url": "/gundong/qdfl.html",
+              "tag": "琼岛评论"
+            },
+            {
+              "url": "/gundong/wbhn.html",
+              "tag": "外报海南"
+            },
+            {
+              "url": "/gundong/yule.html",
+              "tag": "娱乐新闻"
+            }
+          ]
+        },
+        {
+          "province": "福建",
+          "baseURL": "http://www.fj.chinanews.com",
+          "selector": {
+            "url": "#listContainer>.level-list>h2",
+            "title": ".article>.article-title",
+            "src": ".article>.article-source",
+            "content": ".article>.article-content"
+          },
+          "skip": false,
+          "subtasks": [{
+            "url": "/fjnews/ttgz/list.html",
+            "tag": "头条关注"
+          }, {
+            "url": "/fjnews/sjkfj/list.html",
+            "tag": "世界看福建"
+          }, {
+            "url": "/fjnews/fjzzs/list.html",
+            "tag": "福建正在说"
+          }, {
+            "url": "/fjnews/qlxdb/list.html",
+            "tag": "侨领行动榜"
+          }, {
+            "url": "/fjnews/jsxw/list.html",
+            "tag": "即时新闻"
+          }, {
+            "url": "/fjnews/zt/list.html",
+            "tag": "专题"
+          }, {
+            "url": "/fjnews/zxyc/list.html",
+            "tag": "中新原创"
+          }, {
+            "url": "/fjnews/zbgat/list.html",
+            "tag": "直播港澳台"
+          }, {
+            "url": "/fjnews/zxmmt/list.html",
+            "tag": "中新闽媒体"
+          }, {
+            "url": "/fjnews/zxsp/list.html",
+            "tag": "中新时评"
+          }, {
+            "url": "/fjnews/wz/list.html",
+            "tag": "问政"
+          }]
+        }
+      ],
+      "西南": [
+        {
+          "province": "四川",
+          "baseURL": "http://www.sc.chinanews.com",
+          "selector": {
+            "url": ".paging>li",
+            "title": ".incont_t>h2",
+            "src": ".incont_t>p",
+            "content": ".incont_txt"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/scxw/index.shtml",
+              "tag": "四川新闻"
+            },
+            {
+              "url": "/glgj/index.shtml",
+              "tag": "国内国际"
+            },
+            {
+              "url": "/bwbd/index.shtml",
+              "tag": "本网报道"
+            },
+            {
+              "url": "/szjj/index.shtml",
+              "tag": "市州聚焦"
+            },
+            {
+              "url": "/szbd/index.shtml",
+              "tag": "时政报道"
+            },
+            {
+              "url": "/zxjzzsc/index.shtml",
+              "tag": "中新记者在四川"
+            },
+            {
+              "url": "/gatq/index.shtml",
+              "tag": "港澳台侨"
+            },
+            {
+              "url": "/cjbd/index.shtml",
+              "tag": "财经报道"
+            },
+            {
+              "url": "/ylss/index.shtml",
+              "tag": "娱乐时尚"
+            },
+            {
+              "url": "/hwmtksc/index.shtml",
+              "tag": "海外媒体刊四川"
+            },
+            {
+              "url": "/shms/index.shtml",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/lyxw/index.shtml",
+              "tag": "旅游新闻"
+            },
+            {
+              "url": "/whty/index.shtml",
+              "tag": "文化体育"
+            },
+            {
+              "url": "/shfw/index.shtml",
+              "tag": "生活服务"
+            },
+            {
+              "url": "/kjws/index.shtml",
+              "tag": "科教卫生"
+            }
+          ]
+        },
+        {
+          "province": "重庆",
+          "baseURL": "http://www.cq.chinanews.com",
+          "selector": {
+            "url": "#DataList>li",
+            "title": ".content .title",
+            "src": ".content .addtime,.other",
+            "content": "#content"
+          },
+          "skip": false,
+          "subtasks": [{
+            "url": "/more/1.shtml",
+            "tag": "重庆要闻"
+          }, {
+            "url": "/more/2.shtml",
+            "tag": "文旅大图"
+          }, {
+            "url": "/more/3.shtml",
+            "tag": "访谈·直播"
+          }, {
+            "url": "/more/4.shtml",
+            "tag": "中新记者看重庆"
+          }, {
+            "url": "/more/5.shtml",
+            "tag": "本网报道"
+          }, {
+            "url": "/more/6.shtml",
+            "tag": "中新策划"
+          }, {
+            "url": "/more/7.shtml",
+            "tag": "本网专题"
+          }, {
+            "url": "/more/10.shtml",
+            "tag": "微话题"
+          }, {
+            "url": "/more/11.shtml",
+            "tag": "社会新闻"
+          }, {
+            "url": "/more/12.shtml",
+            "tag": "文娱新闻"
+          }, {
+            "url": "/more/13.shtml",
+            "tag": "时政新闻"
+          }, {
+            "url": "/more/15.shtml",
+            "tag": "阅图"
+          }, {
+            "url": "/more/16.shtml",
+            "tag": "再瞰重庆"
+          }, {
+            "url": "/more/17.shtml",
+            "tag": "区县新闻"
+          }, {
+            "url": "/more/21.shtml",
+            "tag": "美食"
+          }, {
+            "url": "/more/22.shtml",
+            "tag": "文旅要闻"
+          }, {
+            "url": "/more/23.shtml",
+            "tag": "娱乐"
+          }, {
+            "url": "/more/24.shtml",
+            "tag": "医疗"
+          }, {
+            "url": "/more/25.shtml",
+            "tag": "健康"
+          }, {
+            "url": "/more/26.shtml",
+            "tag": "旅游资讯"
+          }, {
+            "url": "/more/27.shtml",
+            "tag": "景区推荐"
+          }, {
+            "url": "/more/28.shtml",
+            "tag": "汽车"
+          }, {
+            "url": "/more/29.shtml",
+            "tag": "中国之光"
+          }, {
+            "url": "/more/30.shtml",
+            "tag": "延时摄影"
+          }, {
+            "url": "/more/31.shtml",
+            "tag": "重庆IN"
+          }, {
+            "url": "/more/32.shtml",
+            "tag": "人物故事"
+          }, {
+            "url": "/more/33.shtml",
+            "tag": "海外刊重庆"
+          }, {
+            "url": "/more/34.shtml",
+            "tag": "台湾"
+          }, {
+            "url": "/more/35.shtml",
+            "tag": "澳门"
+          }, {
+            "url": "/more/36.shtml",
+            "tag": "香港"
+          }, {
+            "url": "/more/37.shtml",
+            "tag": "华人"
+          }, {
+            "url": "/more/38.shtml",
+            "tag": "华侨"
+          }, {
+            "url": "/more/39.shtml",
+            "tag": "服务"
+          }, {
+            "url": "/more/41.shtml",
+            "tag": "资讯"
+          }, {
+            "url": "/more/44.shtml",
+            "tag": "中新播报"
+          }, {
+            "url": "/more/45.shtml",
+            "tag": "房产要闻"
+          }, {
+            "url": "/more/46.shtml",
+            "tag": "房产大图"
+          }, {
+            "url": "/more/47.shtml",
+            "tag": "特别策划"
+          }, {
+            "url": "/more/48.shtml",
+            "tag": "楼市速递"
+          }]
+        },
+        {
+          "province": "贵州",
+          "baseURL": "http://www.gz.chinanews.com",
+          "selector": {
+            "url": ".newsLi",
+            "title": ".title",
+            "src": ".info",
+            "content": ".article"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/jjgz/index.shtml",
+              "tag": "贵州要闻"
+            },
+            {
+              "url": "/jjgz/zwrs/index.shtml",
+              "tag": "政务"
+            },
+            {
+              "url": "/shzx/index.shtml",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/yjzy/index.shtml",
+              "tag": "文化旅游"
+            },
+            {
+              "url": "/szfc/index.shtml",
+              "tag": "市州之窗"
+            }
+          ]
+        },
+        {
+          "province": "云南",
+          "baseURL": "http://www.yn.chinanews.com/",
+          "selector": {
+            "url": "#newsArea>ul>li",
+            "title": "#newsTitle",
+            "src": "#newsInfo",
+            "content": "#newsText"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/zxsd/index.shtml",
+              "tag": "中新速递"
+            },
+            {
+              "url": "/qw/index.shtml",
+              "tag": "侨务"
+            },
+            {
+              "url": "/dmny/index.shtml",
+              "tag": "东盟南亚"
+            },
+            {
+              "url": "/fszx/index.shtml",
+              "tag": "辐射中心"
+            },
+            {
+              "url": "/mztj/index.shtml",
+              "tag": "民族团结"
+            },
+            {
+              "url": "/stwm/index.shtml",
+              "tag": "生态文明"
+            },
+            {
+              "url": "/gn/index.shtml",
+              "tag": "国内"
+            },
+            {
+              "url": "/zsdt/index.shtml",
+              "tag": "州市动态"
+            },
+            {
+              "url": "/yl/index.shtml",
+              "tag": "娱乐"
+            },
+            {
+              "url": "/zsdt/index.shtml",
+              "tag": "州市动态"
+            },
+            {
+              "url": "/ly/index.shtml",
+              "tag": "旅游"
+            },
+            {
+              "url": "/edu/index.shtml",
+              "tag": "教育"
+            },
+            {
+              "url": "/qyzx/index.shtml",
+              "tag": "企业资讯"
+            },
+            {
+              "url": "/gyts/index.shtml",
+              "tag": "高原特色"
+            },
+            {
+              "url": "/car/index.shtml",
+              "tag": "汽车"
+            },
+            {
+              "url": "/fc/index.shtml",
+              "tag": "房产"
+            },
+            {
+              "url": "/cj/index.shtml",
+              "tag": "财经"
+            }
+          ]
+        }
+      ],
+      "西北": [
+        {
+          "province": "陕西",
+          "baseURL": "http://www.shx.chinanews.com",
+          "selector": {
+            "url": "#lister>.youce33",
+            "title": "#window>.window1>.h6",
+            "src": "#time",
+            "content": ".window25"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/szjj.html",
+              "tag": "时政经济"
+            },
+            {
+              "url": "/zltx.html",
+              "tag": "纵览天下"
+            },
+            {
+              "url": "/sxxw.html",
+              "tag": "市县新闻"
+            },
+            {
+              "url": "/shfz.html",
+              "tag": "社会法制"
+            },
+            {
+              "url": "/jcca.html",
+              "tag": "精彩长安"
+            },
+            {
+              "url": "/sssh.html",
+              "tag": "时尚生活"
+            },
+            {
+              "url": "/jzyx.html",
+              "tag": "记者一线"
+            },
+            {
+              "url": "/mtsp.html",
+              "tag": "媒体时评"
+            },
+            {
+              "url": "/kjww.html",
+              "tag": "科教文卫"
+            },
+            {
+              "url": "/dswy.html",
+              "tag": "理论·文苑"
+            },
+            {
+              "url": "/ylty.html",
+              "tag": "娱乐体育"
+            },
+            {
+              "url": "/wmksx.html",
+              "tag": "外媒刊陕西"
+            }
+          ]
+        },
+        {
+          "province": "甘肃",
+          "baseURL": "http://www.gs.chinanews.com",
+          "selector": {
+            "url": ".listbox>.e2 li",
+            "title": ".listbox>.dd",
+            "src": ".listbox>.left-time",
+            "content": ".listbox>.tp"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/gsyw1/m1.html",
+              "tag": "甘肃要闻"
+            },
+            {
+              "url": "/gsyw1/m2.html",
+              "tag": "甘肃要闻"
+            },
+            {
+              "url": "/gsyw1/m3.html",
+              "tag": "甘肃要闻"
+            },
+            {
+              "url": "/gsyw1/m4.html",
+              "tag": "甘肃要闻"
+            },
+            {
+              "url": "/qykx1/m1.html",
+              "tag": "企业快讯"
+            },
+            {
+              "url": "/qykx1/m2.html",
+              "tag": "企业快讯"
+            },
+            {
+              "url": "/qykx1/m3.html",
+              "tag": "企业快讯"
+            },
+            {
+              "url": "/qykx1/m4.html",
+              "tag": "企业快讯"
+            },
+            {
+              "url": "/zwrs1/m1.html",
+              "tag": "甘肃政务"
+            },
+            {
+              "url": "/zwrs1/m2.html",
+              "tag": "甘肃政务"
+            },
+            {
+              "url": "/zwrs1/m3.html",
+              "tag": "甘肃政务"
+            },
+            {
+              "url": "/zwrs1/m4.html",
+              "tag": "甘肃政务"
+            },
+            {
+              "url": "/lywx1/m1.html",
+              "tag": "陇原万象"
+            },
+            {
+              "url": "/lywx1/m2.html",
+              "tag": "陇原万象"
+            },
+            {
+              "url": "/lywx1/m3.html",
+              "tag": "陇原万象"
+            },
+            {
+              "url": "/lywx1/m4.html",
+              "tag": "陇原万象"
+            },
+            {
+              "url": "/rsrm/m1.html",
+              "tag": "人事变动"
+            },
+            {
+              "url": "/rsrm/m2.html",
+              "tag": "人事变动"
+            },
+            {
+              "url": "/rsrm/m3.html",
+              "tag": "人事变动"
+            },
+            {
+              "url": "/rsrm/m4.html",
+              "tag": "人事变动"
+            },
+            {
+              "url": "/wsqw1/m1.html",
+              "tag": "甘肃统战"
+            },
+            {
+              "url": "/wsqw1/m2.html",
+              "tag": "甘肃统战"
+            },
+            {
+              "url": "/wsqw1/m3.html",
+              "tag": "甘肃统战"
+            },
+            {
+              "url": "/wsqw1/m4.html",
+              "tag": "甘肃统战"
+            },
+            {
+              "url": "/fzxw/m1.html",
+              "tag": "法制"
+            },
+            {
+              "url": "/shms1/m1.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/shms1/m2.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/shms1/m3.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/shms1/m4.html",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/tyxw1/m1.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/tyxw1/m2.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/tyxw1/m3.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/tyxw1/m4.html",
+              "tag": "体育"
+            },
+            {
+              "url": "/wsxw/m1.html",
+              "tag": "卫生"
+            },
+            {
+              "url": "/jjxw1/m1.html",
+              "tag": "县域经济"
+            },
+            {
+              "url": "/jjxw1/m2.html",
+              "tag": "县域经济"
+            },
+            {
+              "url": "/jjxw1/m3.html",
+              "tag": "县域经济"
+            },
+            {
+              "url": "/jjxw1/m4.html",
+              "tag": "县域经济"
+            },
+            {
+              "url": "/tpxw1/m1.html",
+              "tag": "图片新闻"
+            },
+            {
+              "url": "/tpxw1/m2.html",
+              "tag": "图片新闻"
+            },
+            {
+              "url": "/tpxw1/m3.html",
+              "tag": "图片新闻"
+            },
+            {
+              "url": "/tpxw1/m4.html",
+              "tag": "图片新闻"
+            },
+            {
+              "url": "/qzlx1/m1.html",
+              "tag": "甘肃党建"
+            },
+            {
+              "url": "/slxy1/m1.html",
+              "tag": "丝路新语"
+            },
+            {
+              "url": "/slxy1/m2.html",
+              "tag": "丝路新语"
+            },
+            {
+              "url": "/slxy1/m3.html",
+              "tag": "丝路新语"
+            },
+            {
+              "url": "/slxy1/m4.html",
+              "tag": "丝路新语"
+            },
+            {
+              "url": "/kjxw1/m1.html",
+              "tag": "科技"
+            },
+            {
+              "url": "/kjxw1/m2.html",
+              "tag": "科技"
+            },
+            {
+              "url": "/kjxw1/m3.html",
+              "tag": "科技"
+            },
+            {
+              "url": "/kjxw1/m4.html",
+              "tag": "科技"
+            },
+            {
+              "url": "/jywx1/m1.html",
+              "tag": "甘肃教育"
+            },
+            {
+              "url": "/jywx1/m2.html",
+              "tag": "甘肃教育"
+            },
+            {
+              "url": "/jywx1/m3.html",
+              "tag": "甘肃教育"
+            },
+            {
+              "url": "/jywx1/m4.html",
+              "tag": "甘肃教育"
+            },
+            {
+              "url": "/gsly1/m1.html",
+              "tag": "甘肃旅游"
+            },
+            {
+              "url": "/gsly1/m2.html",
+              "tag": "甘肃旅游"
+            },
+            {
+              "url": "/gsly1/m3.html",
+              "tag": "甘肃旅游"
+            },
+            {
+              "url": "/gsly1/m4.html",
+              "tag": "甘肃旅游"
+            },
+            {
+              "url": "/whws1/m1.html",
+              "tag": "甘肃文化"
+            },
+            {
+              "url": "/whws1/m2.html",
+              "tag": "甘肃文化"
+            },
+            {
+              "url": "/whws1/m3.html",
+              "tag": "甘肃文化"
+            },
+            {
+              "url": "/whws1/m4.html",
+              "tag": "甘肃文化"
+            }
+          ]
+        },
+        {
+          "province": "新疆",
+          "baseURL": "http://www.xj.chinanews.com",
+          "selector": {
+            "url": ".LB_list_ul>li",
+            "title": "#xw_title>h2",
+            "src": "#xw_xinxi",
+            "content": "#MyContent"
+          },
+          "subtasks": [
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=1",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=2",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=3",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=4",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=5",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=6",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=7",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=8",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=9",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=63&p=10",
+              "tag": "新疆要闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=1",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=2",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=3",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=4",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=5",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=6",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=7",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=8",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=9",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=64&p=10",
+              "tag": "国内新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=1",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=2",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=3",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=4",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=5",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=6",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=7",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=8",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=9",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=65&p=10",
+              "tag": "经济新闻"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=1",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=2",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=3",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=4",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=5",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=6",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=7",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=8",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=9",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=66&p=10",
+              "tag": "社会民生"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=1",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=2",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=3",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=4",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=5",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=6",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=7",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=8",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=9",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=67&p=10",
+              "tag": "科教体育"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=1",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=2",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=3",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=4",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=5",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=6",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=7",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=8",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=9",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=68&p=10",
+              "tag": "华文报摘"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=1",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=2",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=3",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=4",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=5",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=6",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=7",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=8",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=9",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=69&p=10",
+              "tag": "援疆信息"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=1",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=2",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=3",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=4",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=5",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=6",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=7",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=8",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=9",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=70&p=10",
+              "tag": "旅游文化"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=1",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=2",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=3",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=4",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=5",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=6",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=7",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=8",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=9",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=71&p=10",
+              "tag": "资源开发"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=1",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=2",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=3",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=4",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=5",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=6",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=7",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=8",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=9",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=72&p=10",
+              "tag": "一带一路"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=1",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=2",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=3",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=4",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=5",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=6",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=7",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=8",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=9",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=74&p=10",
+              "tag": "兵团"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=1",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=2",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=3",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=4",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=5",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=6",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=7",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=8",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=9",
+              "tag": "地州"
+            },
+            {
+              "url": "/xinjiang/xjyw.d.html?nid=75&p=10",
+              "tag": "地州"
+            }
+          ]
+        },
+        {
+          "province": "青海",
+          "baseURL": "http://www.qh.chinanews.com",
+          "selector": {
+            "url": "#list>ul>li",
+            "title": "#cont>h1",
+            "src": "#time",
+            "content": "#cont>.txt"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/yw/index.shtml",
+              "tag": "要闻"
+            },
+            {
+              "url": "/hwkqh/index.shtml",
+              "tag": "海外刊青海"
+            },
+            {
+              "url": "/zxjzzqh/index.shtml",
+              "tag": "中新记者在青海"
+            },
+            {
+              "url": "/qhgd/index.shtml",
+              "tag": "青海各地"
+            },
+            {
+              "url": "/dj/index.shtml",
+              "tag": "党建"
+            },
+            {
+              "url": "/zq/index.shtml",
+              "tag": "企业"
+            },
+            {
+              "url": "/sh/index.shtml",
+              "tag": "社会"
+            },
+            {
+              "url": "/cj/index.shtml",
+              "tag": "产经"
+            },
+            {
+              "url": "/ty/index.shtml",
+              "tag": "体育"
+            },
+            {
+              "url": "/wy/index.shtml",
+              "tag": "文娱"
+            },
+            {
+              "url": "/kj/index.shtml",
+              "tag": "科教"
+            },
+            {
+              "url": "/st/index.shtml",
+              "tag": "生态"
+            },
+            {
+              "url": "/xmt/index.shtml",
+              "tag": "新媒体"
+            },
+            {
+              "url": "/bwzt/index.shtml",
+              "tag": "本网专题"
+            }
+          ]
+        },
+        {
+          "province": "宁夏",
+          "baseURL": "http://www.nx.chinanews.com",
+          "selector": {
+            "url": ".newstitle",
+            "title": ".title",
+            "src": ".pubtime",
+            "content": ".conzw"
+          },
+          "skip": false,
+          "subtasks": [
+            {
+              "url": "/sz/",
+              "tag": "时政"
+            },
+            {
+              "url": "/cj/",
+              "tag": "财经"
+            },
+            {
+              "url": "/news/",
+              "tag": "要闻"
+            },
+            {
+              "url": "/tpgj/",
+              "tag": "脱贫攻坚"
+            },
+            {
+              "url": "/qw/",
+              "tag": "权威发布"
+            },
+            {
+              "url": "/nxwx/",
+              "tag": "宁夏万象"
+            },
+            {
+              "url": "/kjws/",
+              "tag": "科教卫生"
+            },
+            {
+              "url": "/tywh/",
+              "tag": "体育文化"
+            },
+            {
+              "url": "/hrzx/",
+              "tag": "华人资讯"
+            },
+            {
+              "url": "/ly/",
+              "tag": "旅游"
+            },
+            {
+              "url": "/wm/",
+              "tag": "外媒看宁夏"
+            },
+            {
+              "url": "/wine/",
+              "tag": "葡萄酒"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

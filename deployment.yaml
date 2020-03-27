@@ -1,0 +1,37 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  namespace: public-api
+  name: chinanews-spider
+  labels:
+    app: chinanews-spider
+spec:
+  schedule: "30 23 * * *"
+  successfulJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: chinanews-spider
+        spec:
+          imagePullSecrets:
+            - name: registry-secret
+          containers:
+            - name: chinanews-spider
+              image: __IMAGE_FULL_NAME__
+              imagePullPolicy: Always
+              env:
+              - name: APP_DB_DBNAME
+                value: ncovis
+              - name: APP_DB_URI
+                value: mongodb://mongodb:27017/
+              - name: APP_NLP_ADDRESS
+                value: nlp-api:12377
+              - name: APP_WORDLE_ADDRESS
+                value: wordle-api:12378
+              - name: APP_SPIDER_DELAY
+                value: "100"
+              - name: APP_SPIDER_CONCURRENCY
+                value: "2"
+          restartPolicy: OnFailure

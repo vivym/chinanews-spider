@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package wordle;
+
+message NCOVIS_ShapeWordleRequest {
+    enum MethodType {
+        Wordle = 0;
+        ShapeWordle = 1;
+    }
+
+    message Word {
+        string name = 1;
+        double weight = 2;
+    }
+
+    MethodType method = 1;
+    string topic = 2;
+    repeated Word words = 3;
+}
+
+message NCOVIS_ShapeWordleResponse {
+    message Word {
+        string name = 1;
+        double fontSize = 2;
+        string color = 3;
+        double rotate = 4;
+        double transX = 5;
+        double transY = 6;
+        double fillX = 7;
+        double fillY= 8;
+    }
+    repeated Word keywords = 1;
+    repeated Word fillingWords = 2;
+}
+
+service Wordle {
+    rpc NCOVIS_ShapeWordle(NCOVIS_ShapeWordleRequest) returns (NCOVIS_ShapeWordleResponse);
+}
