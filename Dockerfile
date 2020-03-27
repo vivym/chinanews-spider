@@ -4,4 +4,4 @@ COPY configs /
 
 COPY chinanews-spider /
 
-ENTRYPOINT ["/chinanews-spider", "--config", "configs/chinanews.json"]
+ENTRYPOINT ["/chinanews-spider", "--config", "chinanews.json"]
